@@ -8,7 +8,7 @@ const entityLabels = [
   { key: 'Organization', label: 'Organizations' },
   { key: 'Location', label: 'Locations' },
   { key: 'Event', label: 'Events' },
-] as const
+]
 
 export function DashboardPage() {
   const stats = getDashboardEntityStats(mockEntities)

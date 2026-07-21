@@ -1,9 +1,7 @@
 import { useMemo, useState } from 'react'
 
-import type { Entity } from '../models/entity'
-
-export function useEntitySelection(entities: Entity[]) {
-  const [selectedEntityId, setSelectedEntityId] = useState<string | null>(
+export function useEntitySelection(entities) {
+  const [selectedEntityId, setSelectedEntityId] = useState(
     entities[0]?.id ?? null,
   )
 

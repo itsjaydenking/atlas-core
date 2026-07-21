@@ -1,6 +1,4 @@
-import type { Entity } from '../models/entity'
-
-export const mockEntities: Entity[] = [
+export const mockEntities = [
   {
     id: 'char-1',
     name: 'Character 01',

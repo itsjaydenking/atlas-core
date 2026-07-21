@@ -1,9 +1,4 @@
-interface PageHeaderProps {
-  title: string
-  description?: string
-}
-
-export function PageHeader({ title, description }: PageHeaderProps) {
+export function PageHeader({ title, description }) {
   return (
     <header className="page-header">
       <h1>{title}</h1>

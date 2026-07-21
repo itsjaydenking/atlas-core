@@ -1,12 +1,4 @@
-import type { Entity } from '../models/entity'
-
-interface EntityCardProps {
-  entity: Entity
-  isSelected: boolean
-  onSelect: (entityId: string) => void
-}
-
-export function EntityCard({ entity, isSelected, onSelect }: EntityCardProps) {
+export function EntityCard({ entity, isSelected, onSelect }) {
   return (
     <li>
       <button

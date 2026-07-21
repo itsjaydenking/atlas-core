@@ -1,18 +1,6 @@
-import type { Entity } from '../models/entity'
-
 import { EntityCard } from './EntityCard'
 
-interface EntityListProps {
-  entities: Entity[]
-  selectedEntityId: string | null
-  onSelectEntity: (entityId: string) => void
-}
-
-export function EntityList({
-  entities,
-  selectedEntityId,
-  onSelectEntity,
-}: EntityListProps) {
+export function EntityList({ entities, selectedEntityId, onSelectEntity }) {
   return (
     <section className="panel entities-list" aria-label="Entity list">
       <h2>Entity List</h2>

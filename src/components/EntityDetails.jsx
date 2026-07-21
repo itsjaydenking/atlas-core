@@ -1,12 +1,6 @@
-import type { Entity } from '../models/entity'
-
 import { EmptyState } from './EmptyState'
 
-interface EntityDetailsProps {
-  entity: Entity | null
-}
-
-export function EntityDetails({ entity }: EntityDetailsProps) {
+export function EntityDetails({ entity }) {
   if (!entity) {
     return (
       <EmptyState

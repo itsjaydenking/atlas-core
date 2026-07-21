@@ -1,6 +1,4 @@
-import type { Relationship } from '../models/relationship'
-
-export const mockRelationships: Relationship[] = [
+export const mockRelationships = [
   {
     id: 'rel-1',
     sourceEntityId: 'char-1',

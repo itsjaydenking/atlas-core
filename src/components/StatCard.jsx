@@ -1,9 +1,4 @@
-interface StatCardProps {
-  label: string
-  value: number
-}
-
-export function StatCard({ label, value }: StatCardProps) {
+export function StatCard({ label, value }) {
   return (
     <article className="stat-card panel">
       <p>{label}</p>

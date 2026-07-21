@@ -4,7 +4,7 @@ Atlas is a relational worldbuilding platform prototype focused on structured ent
 
 ## Tech Stack
 
-- React + Vite + TypeScript
+- React + Vite + JavaScript (JSX)
 - React Router
 - ESLint
 - Prettier

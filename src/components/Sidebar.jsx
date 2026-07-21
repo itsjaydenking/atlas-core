@@ -1,11 +1,6 @@
 import { NavLink } from 'react-router-dom'
 
-interface NavigationItem {
-  label: string
-  to: string
-}
-
-const navigationItems: NavigationItem[] = [
+const navigationItems = [
   { label: 'Dashboard', to: '/' },
   { label: 'Entities', to: '/entities' },
   { label: 'Relationships', to: '/relationships' },
