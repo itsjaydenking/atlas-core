@@ -1,0 +1,17 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: var(--spacing-4);
+}
+
+.entities-page-grid {
+  display: grid;
+  grid-template-columns: minmax(14rem, 22rem) minmax(0, 1fr);
+  gap: var(--spacing-4);
+}
+
+@media (max-width: 860px) {
+  .entities-page-grid {
+    grid-template-columns: 1fr;
+  }
+}

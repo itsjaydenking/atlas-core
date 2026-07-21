@@ -1,0 +1,116 @@
+.search-bar input {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-2) var(--spacing-3);
+  background: var(--color-surface-muted);
+}
+
+.settings-button {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-muted);
+  color: var(--color-text-muted);
+  padding: var(--spacing-2) var(--spacing-3);
+}
+
+.page-header {
+  margin-bottom: var(--spacing-5);
+}
+
+.page-header h1 {
+  font-size: 1.55rem;
+  margin-bottom: var(--spacing-2);
+}
+
+.page-header p {
+  color: var(--color-text-muted);
+}
+
+.stat-card {
+  padding: var(--spacing-4);
+  display: grid;
+  gap: var(--spacing-2);
+}
+
+.stat-card p {
+  color: var(--color-text-muted);
+}
+
+.stat-card strong {
+  font-size: 1.75rem;
+}
+
+.empty-state {
+  padding: var(--spacing-5);
+  display: grid;
+  gap: var(--spacing-2);
+}
+
+.empty-state p {
+  color: var(--color-text-muted);
+}
+
+.entities-list,
+.entity-details {
+  padding: var(--spacing-4);
+}
+
+.entities-list {
+  display: grid;
+  gap: var(--spacing-4);
+}
+
+.entities-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--spacing-2);
+}
+
+.entity-card {
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-2);
+  cursor: pointer;
+}
+
+.entity-card small {
+  color: var(--color-text-muted);
+}
+
+.entity-card.is-selected {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
+.entity-details dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  row-gap: var(--spacing-3);
+}
+
+.entity-details dt {
+  color: var(--color-text-muted);
+}
+
+.entity-details dd {
+  margin: 0;
+}
+
+.not-found-page {
+  max-width: 32rem;
+  margin: 3rem auto;
+  padding: var(--spacing-5);
+  display: grid;
+  gap: var(--spacing-3);
+}
